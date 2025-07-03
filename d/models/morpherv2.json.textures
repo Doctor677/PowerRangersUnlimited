@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "morpherv2"
+      },
+      "name": "default"
+    }
+  }
+}

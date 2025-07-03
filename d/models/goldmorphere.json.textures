@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "goldmorpher",
+        "2": "coin"
+      },
+      "name": "default"
+    }
+  }
+}

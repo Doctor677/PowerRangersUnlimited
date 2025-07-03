@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "wreckedmorpher",
+        "2": "wreckedmorpher",
+        "3": "wreakedcoin",
+        "4": "wreckedmorpher"
+      },
+      "name": "default"
+    }
+  }
+}

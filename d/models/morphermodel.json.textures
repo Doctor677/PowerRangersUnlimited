@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "morpher0",
+        "2": "morpher2",
+        "3": "morpher3",
+        "4": "morpher4",
+        "5": "morpher5",
+        "6": "morpher6",
+        "missing": "morpher8",
+        "8": "morpher8"
+      },
+      "name": "default"
+    }
+  }
+}
