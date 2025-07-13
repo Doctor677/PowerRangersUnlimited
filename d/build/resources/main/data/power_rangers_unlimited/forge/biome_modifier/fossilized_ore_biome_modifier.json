@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "power_rangers_unlimited:fossilized_ore",
+  "step": "underground_ores"
+}

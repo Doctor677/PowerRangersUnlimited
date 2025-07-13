@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "power_rangers_unlimited:item/green_infused_redstone"
+  }
+}

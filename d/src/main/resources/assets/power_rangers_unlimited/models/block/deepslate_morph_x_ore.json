@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "power_rangers_unlimited:block/deepmorph",
+    "up": "power_rangers_unlimited:block/deepmorph",
+    "north": "power_rangers_unlimited:block/deepmorph",
+    "east": "power_rangers_unlimited:block/deepmorph",
+    "south": "power_rangers_unlimited:block/deepmorph",
+    "west": "power_rangers_unlimited:block/deepmorph",
+    "particle": "power_rangers_unlimited:block/deepmorph"
+  },
+  "render_type": "solid"
+}

@@ -20,15 +20,27 @@ authors="user, MCreator"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.power_rangers_unlimited]]
+    modId="pehkui"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.power_rangers_unlimited]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.power_rangers_unlimited]]
-    modId="ldlibapi"
+    modId="pehkui"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.power_rangers_unlimited]]
-    modId="pehkui"
+    modId="ldlibapi"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

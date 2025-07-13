@@ -1,0 +1,598 @@
+{
+  "mod_elements": [
+    {
+      "name": "DinoFossil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dino_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/DinoFossilItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/dino_fossil.json"
+        ]
+      }
+    },
+    {
+      "name": "DinoFossilExtension",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dino_fossil_extension",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MorphXOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morph_x_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/power_rangers_unlimited/worldgen/placed_feature/morph_x_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/configured_feature/morph_x_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/forge/biome_modifier/morph_x_ore_biome_modifier.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/morph_x_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/morph_x_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/block/morph_x_ore.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/MorphXOreBlock.java",
+          "src/main/resources/data/power_rangers_unlimited/loot_tables/blocks/morph_x_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateMorphXOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_morph_x_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/power_rangers_unlimited/forge/biome_modifier/deepslate_morph_x_ore_biome_modifier.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/deepslate_morph_x_ore.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/DeepslateMorphXOreBlock.java",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/configured_feature/deepslate_morph_x_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/deepslate_morph_x_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/block/deepslate_morph_x_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/loot_tables/blocks/deepslate_morph_x_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/placed_feature/deepslate_morph_x_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MorphinEnergy",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morphin_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/MorphinEnergyItem.java",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/MorphinEnergyBlock.java",
+          "src/main/java/net/mcreator/powerrangersunlimited/fluid/types/MorphinEnergyFluidType.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/block/morphin_energy.json",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/morphin_energy.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/fluid/MorphinEnergyFluid.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/morphin_energy_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "SpawnMorphinEnergy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_morphin_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/procedures/SpawnMorphinEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FossilizedOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossilized_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/power_rangers_unlimited/models/item/fossilized_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/fossilized_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/placed_feature/fossilized_ore.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/FossilizedOreBlock.java",
+          "src/main/resources/data/power_rangers_unlimited/forge/biome_modifier/fossilized_ore_biome_modifier.json",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/configured_feature/fossilized_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/block/fossilized_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateFossilizedOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_fossilized_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/block/DeepslateFossilizedOreBlock.java",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/configured_feature/deepslate_fossilized_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/forge/biome_modifier/deepslate_fossilized_ore_biome_modifier.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/deepslate_fossilized_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/deepslate_fossilized_ore.json",
+          "src/main/resources/data/power_rangers_unlimited/worldgen/placed_feature/deepslate_fossilized_ore.json",
+          "src/main/resources/assets/power_rangers_unlimited/models/block/deepslate_fossilized_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "FossilizedOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossilized_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/power_rangers_unlimited/loot_tables/blocks/fossilized_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateFossilizedOreLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_fossilized_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/power_rangers_unlimited/loot_tables/deepslate_fossilized_ore_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/power_rangers_unlimited/models/block/infusion_furnace.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/InfusionFurnaceBlock.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/infusion_furnace.json",
+          "src/main/resources/data/power_rangers_unlimited/loot_tables/blocks/infusion_furnace.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/block/entity/InfusionFurnaceBlockEntity.java",
+          "src/main/resources/assets/power_rangers_unlimited/blockstates/infusion_furnace.json"
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnaceBlockstates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/power_rangers_unlimited/models/block/infusion_furnace_blockstates_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "GetInfusionFurnaceFluid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_infusion_furnace_fluid",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/procedures/GetInfusionFurnaceFluidProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnaceGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/client/gui/InfusionFurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/powerrangersunlimited/world/inventory/InfusionFurnaceGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "RedInfusedGoldIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_infused_gold_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/RedInfusedGoldIngotItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/red_infused_gold_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkInfusedDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_infused_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/PinkInfusedDiamondItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/pink_infused_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowInfusedIronIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_infused_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/power_rangers_unlimited/models/item/yellow_infused_iron_ingot.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/item/YellowInfusedIronIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenInfusedRedstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_infused_redstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/GreenInfusedRedstoneItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/green_infused_redstone.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueInfusedNetheriteScrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_infused_netherite_scrap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/BlueInfusedNetheriteScrapItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/blue_infused_netherite_scrap.json"
+        ]
+      }
+    },
+    {
+      "name": "PurpleInfusedNetheriteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_infused_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/power_rangers_unlimited/models/item/purple_infused_netherite_ingot.json",
+          "src/main/java/net/mcreator/powerrangersunlimited/item/PurpleInfusedNetheriteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackInfusedLapisLazuli",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_infused_lapis_lazuli",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/BlackInfusedLapisLazuliItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/black_infused_lapis_lazuli.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteInfusedEmerald",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_infused_emerald",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/WhiteInfusedEmeraldItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/white_infused_emerald.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeInfusedCopperIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_infused_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/item/OrangeInfusedCopperIngotItem.java",
+          "src/main/resources/assets/power_rangers_unlimited/models/item/orange_infused_copper_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnaceRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/procedures/InfusionFurnaceRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnaceCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/power_rangers_unlimited/recipes/infusion_furnace_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerRangersUnlimitedAssorted",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_rangers_unlimited_assorted",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "InsertMorphinEnergy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insert_morphin_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/procedures/InsertMorphinEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfusionFurnaceMorphinEnergy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_furnace_morphin_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/powerrangersunlimited/procedures/InfusionFurnaceMorphinEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:ore_replaceable_stone": [
+      "Blocks.STONE#0",
+      "Blocks.STONE#5",
+      "Blocks.STONE#3",
+      "Blocks.STONE#1",
+      "Blocks.DRIPSTONE_BLOCK"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:DeepslateMorphXOre",
+      "~CUSTOM:MorphXOre"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MorphinEnergy"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepslateFossilizedOre",
+      "~CUSTOM:FossilizedOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:InfusionFurnace",
+      "~CUSTOM:DeepslateFossilizedOre",
+      "~CUSTOM:FossilizedOre",
+      "~CUSTOM:DeepslateMorphXOre",
+      "~CUSTOM:MorphXOre"
+    ],
+    "ITEMS:mod:infusion_furnace/inputs": [
+      "Items.IRON_INGOT",
+      "Items.COPPER_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.NETHERITE_SCRAP",
+      "Items.DIAMOND",
+      "Items.DYE#4",
+      "Items.REDSTONE",
+      "Items.EMERALD"
+    ],
+    "BLOCKS:minecraft:ore_replaceable_deepslate": [
+      "Blocks.DEEPSLATE",
+      "Blocks.TUFF",
+      "Blocks.CALCITE"
+    ],
+    "ITEMS:mod:infusion_furnace/fuels": [
+      "Blocks.COAL_BLOCK",
+      "Items.LAVA_BUCKET"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.power_rangers_unlimited.morph_x_ore.description_0": "An ore containing a mysterious energy...",
+      "item.power_rangers_unlimited.red_infused_gold_ingot.description_0": "A Gold Ingot infused with the power of the Red Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.orange_infused_copper_ingot.description_0": "A Copper Ingot infused with the power of the Orange Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.black_infused_lapis_lazuli.description_0": "Lapis Lazuli infused with the power of the Black Morphin\u0027 Spectrum",
+      "block.power_rangers_unlimited.deepslate_fossilized_ore": "Deepslate Fossilized Ore",
+      "item.power_rangers_unlimited.red_infused_gold_ingot": "Red Infused Gold Ingot",
+      "item.power_rangers_unlimited.pink_infused_diamond": "Pink Infused Diamond",
+      "item_group.power_rangers_unlimited.power_rangers_unlimited_assorted": "Assorted PRU Things",
+      "block.power_rangers_unlimited.deepslate_morph_x_ore": "Deepslate Morphin\u0027 Energy Ore",
+      "item.power_rangers_unlimited.white_infused_emerald": "White Infused Emerald",
+      "item.power_rangers_unlimited.green_infused_redstone": "Green Infused Redstone",
+      "block.power_rangers_unlimited.morph_x_ore": "Morphin\u0027 Energy Ore",
+      "item.power_rangers_unlimited.blue_infused_netherite_scrap": "Blue Infused Netherite Scrap",
+      "block.power_rangers_unlimited.infusion_furnace": "Infusion Furnace",
+      "fluid.power_rangers_unlimited.morphin_energy": "Morphin\u0027 Energy",
+      "item.power_rangers_unlimited.yellow_infused_iron_ingot.description_0": "An Iron Ingot infused with the power of the Yellow Morphin\u0027 Spectrum",
+      "block.power_rangers_unlimited.fossilized_ore": "Fossilized Ore",
+      "block.power_rangers_unlimited.deepslate_morph_x_ore.description_0": "An ore containing a mysterious energy...",
+      "item.power_rangers_unlimited.purple_infused_netherite_ingot.description_0": "A Netherite Ingot infused with the power of the Purple Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.dino_fossil": "Dino Fossil",
+      "item.power_rangers_unlimited.morphin_energy_bucket.description_0": "A bucket containing raw Morphin\u0027 Energy",
+      "item.power_rangers_unlimited.pink_infused_diamond.description_0": "A Diamond infused with the power of the Pink Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.purple_infused_netherite_ingot": "Purple Infused Netherite Ingot",
+      "item.power_rangers_unlimited.yellow_infused_iron_ingot": "Yellow Infused Iron Ingot",
+      "item.power_rangers_unlimited.blue_infused_netherite_scrap.description_0": "Netherite Scrap infused with the power of the Blue Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.white_infused_emerald.description_0": "An Emerald infused with the power of the White Morphin\u0027 Spectrum",
+      "item.power_rangers_unlimited.green_infused_redstone.description_0": "Redstone Dust infused with the power of the Green Morphin\u0027 Spectrum",
+      "block.power_rangers_unlimited.infusion_furnace.description_0": "The First Step",
+      "item.power_rangers_unlimited.orange_infused_copper_ingot": "Orange Infused Copper Ingot",
+      "item.power_rangers_unlimited.morphin_energy_bucket": "Bucket O\u0027 Morphin\u0027 Energy",
+      "item.power_rangers_unlimited.dino_fossil.description_0": "Contains DNA from an era long past...",
+      "block.power_rangers_unlimited.morphin_energy": "Morphin\u0027 Energy",
+      "gui.power_rangers_unlimited.infusion_furnace_gui.label_infusion_furnace": "Infusion Furnace",
+      "item.power_rangers_unlimited.black_infused_lapis_lazuli": "Black Infused Lapis Lazuli"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "power_rangers_unlimited",
+    "modName": "Power rangers unlimited",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "pehkui",
+      "geckolib"
+    ],
+    "dependencies": [
+      "pehkui",
+      "geckolib"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "ldlibapi",
+      "pehkui",
+      "geckolib",
+      "photonapi"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.powerrangersunlimited"
+  },
+  "mcreatorVersion": 202400452410
+}

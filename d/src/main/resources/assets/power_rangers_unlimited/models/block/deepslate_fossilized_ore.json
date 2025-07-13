@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "power_rangers_unlimited:block/dinofossildeep",
+    "up": "power_rangers_unlimited:block/dinofossildeep",
+    "north": "power_rangers_unlimited:block/dinofossildeep",
+    "east": "power_rangers_unlimited:block/dinofossildeep",
+    "south": "power_rangers_unlimited:block/dinofossildeep",
+    "west": "power_rangers_unlimited:block/dinofossildeep",
+    "particle": "power_rangers_unlimited:block/dinofossildeep"
+  },
+  "render_type": "solid"
+}

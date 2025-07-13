@@ -17,6 +17,14 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModTabs;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModMenus;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModItems;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModFluids;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModFluidTypes;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModBlocks;
+import net.mcreator.powerrangersunlimited.init.PowerRangersUnlimitedModBlockEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +44,16 @@ public class PowerRangersUnlimitedMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		PowerRangersUnlimitedModBlocks.REGISTRY.register(bus);
+		PowerRangersUnlimitedModBlockEntities.REGISTRY.register(bus);
+		PowerRangersUnlimitedModItems.REGISTRY.register(bus);
+
+		PowerRangersUnlimitedModTabs.REGISTRY.register(bus);
+
+		PowerRangersUnlimitedModMenus.REGISTRY.register(bus);
+		PowerRangersUnlimitedModFluids.REGISTRY.register(bus);
+		PowerRangersUnlimitedModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

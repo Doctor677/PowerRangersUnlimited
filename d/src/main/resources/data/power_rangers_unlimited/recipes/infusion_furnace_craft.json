@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "infusion",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "c": {
+      "item": "minecraft:blast_furnace"
+    },
+    "d": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "power_rangers_unlimited:infusion_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "power_rangers_unlimited:block/infusion_furnace_bottom",
+    "up": "power_rangers_unlimited:block/infusion_furnace_top_on",
+    "north": "power_rangers_unlimited:block/infusion_furnace_on",
+    "east": "power_rangers_unlimited:block/infusion_furnace_side",
+    "south": "power_rangers_unlimited:block/infusion_furnace_side",
+    "west": "power_rangers_unlimited:block/infusion_furnace_side",
+    "particle": "power_rangers_unlimited:block/infusion_furnace_bottom"
+  },
+  "render_type": "solid"
+}

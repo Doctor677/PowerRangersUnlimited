@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "blockstates",
+  "definition": {
+    "block": "InfusionFurnace",
+    "blockstateList": [
+      {
+        "texture": "infusion_furnace_bottom",
+        "textureTop": "infusion_furnace_top_on",
+        "textureLeft": "infusion_furnace_side",
+        "textureFront": "infusion_furnace_on",
+        "textureRight": "infusion_furnace_side",
+        "textureBack": "infusion_furnace_side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

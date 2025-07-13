@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "power_rangers_unlimited:block/tme",
+    "up": "power_rangers_unlimited:block/tme",
+    "north": "power_rangers_unlimited:block/tme",
+    "east": "power_rangers_unlimited:block/tme",
+    "south": "power_rangers_unlimited:block/tme",
+    "west": "power_rangers_unlimited:block/tme",
+    "particle": "power_rangers_unlimited:block/tme"
+  },
+  "render_type": "solid"
+}
